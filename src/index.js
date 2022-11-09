@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // AlapÉrték adás:
     let darabSzam = 0;
     let osszesErtek = 0;
-    let joNevhez = /^[A-Z, ]{1,}/;
+    let joNevhez = /^[A-Za-z, ]{1,}/;
     (_a = document.getElementById('felvetel')) === null || _a === void 0 ? void 0 : _a.addEventListener('click', () => {
         // error deletes:
         document.getElementById('rNev').textContent = '';

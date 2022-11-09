@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let darabSzam = 0;
     let osszesErtek = 0;
 
-    let joNevhez = /^[A-Z, ]{1,}/
+    let joNevhez = /^[A-Za-z, ]{1,}/
 
 
     document.getElementById('felvetel')?.addEventListener('click', () => {
